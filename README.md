@@ -1,4 +1,4 @@
 # FruitSpace API
 **API для взаимодействие с приватными серверами сделанными на FruitSpace**
 
-![alt text](imgs/fpapi.png "Title")
+<img src="imgs/fpapi.png" alt="alt text" width="200"/>
