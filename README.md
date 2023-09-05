@@ -21,7 +21,7 @@ pip install fruitspaceapi
 **Получить уровень по ID.**
 ```python
 import FruitSpaceAPI
-gdps = FruitSpaceAPI('01KG') # Тут нужно указать ID вашего GDPS
+gdps = FruitSpaceAPI.GDPS('01KG') # Тут нужно указать ID вашего GDPS
 
 print(gdps.getLevel(30)) # Тут нужно ввести ID уровня
 ```
@@ -35,7 +35,7 @@ print(gdps.getLevel(30)) # Тут нужно ввести ID уровня
 **Получить пользователя по ID.**
 ```python
 import FruitSpaceAPI
-gdps = FruitSpaceAPI('01KG')
+gdps = FruitSpaceAPI.GDPS('01KG')
 
 print(gdps.getUser(1)) # Тут нужно ввести ID пользователя
 ```
@@ -47,7 +47,7 @@ print(gdps.getUser(1)) # Тут нужно ввести ID пользовате�
 **Получить daily.**
 ```python
 import FruitSpaceAPI
-gdps = FruitSpaceAPI('01KG')
+gdps = FruitSpaceAPI.GDPS('01KG')
 
 print(gdps.getDaily()) # Тут нужно ввести ID пользователя
 ```
