@@ -10,4 +10,4 @@
 
 Установить модуль
 
-``pip install fruitspaceapi``
+`pip install fruitspaceapi`
