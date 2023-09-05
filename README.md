@@ -11,5 +11,5 @@
 Установить модуль
 
 ```plain
-pip install fruitspaceapi
+node generator.js
 ```
