@@ -20,10 +20,10 @@ pip install fruitspaceapi
 
 **Получить уровень по ID.**
 ```python
-import FruitSpaceAPI
+import FruitSpaceAPI, asyncio
 gdps = FruitSpaceAPI.GDPS('01KG') # Тут нужно указать ID вашего GDPS
 
-print(gdps.getLevel(30)) # Тут нужно ввести ID уровня
+print(asyncio.run(gdps.getLevel(30))) # Тут нужно ввести ID уровня
 ```
 Пример ответа
 ```plain
@@ -34,10 +34,10 @@ print(gdps.getLevel(30)) # Тут нужно ввести ID уровня
 
 **Получить пользователя по ID.**
 ```python
-import FruitSpaceAPI
+import FruitSpaceAPI, asyncio
 gdps = FruitSpaceAPI.GDPS('01KG')
 
-print(gdps.getUser(1)) # Тут нужно ввести ID пользователя
+print(asyncio.run(gdps.getUser(1))) # Тут нужно ввести ID пользователя
 ```
 Пример ответа
 ```plain
@@ -46,10 +46,10 @@ print(gdps.getUser(1)) # Тут нужно ввести ID пользовате�
 
 **Получить daily.**
 ```python
-import FruitSpaceAPI
+import FruitSpaceAPI, asyncio
 gdps = FruitSpaceAPI.GDPS('01KG')
 
-print(gdps.getDaily()) # Тут нужно ввести ID пользователя
+print(asyncio.run(gdps.getDaily())) # Тут нужно ввести ID пользователя
 ```
 Пример ответа
 ```plain
